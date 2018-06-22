@@ -8,8 +8,21 @@ body {
 
 }
 
+.unl {
+  margin-right: 40px; 
+}
 
 .secret {
   opacity: .5;
   list-style-type: none;
 }
+
+ li{
+  margin-right: 40px;
+ }
+
+  table {
+    background: lightgrey;
+    display:inline-block;
+    text-align: center;
+  }

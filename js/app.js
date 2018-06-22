@@ -38,8 +38,10 @@ $h42.addClass('wand')
 $container.append($h42)
 
 
-const $ul = $('<ul>trunk</ul>');
+const $ul = $('<ul></ul>');
 $container.append($ul);
+const $li = $('<li>Trunk</li>');
+$li.addClass('unl');
 const $li1 = $('<li>butter beer</li>');
 $li1.addClass('secret');
 const $li2 = $('<li>invisible cloak</li>');
@@ -52,32 +54,70 @@ const $li5 = $('<li>').text('leash');
 $li5.addClass('secret');
 const $li6 = $('<li>Bertie botts every flavor bean</li>');
 $li6.addClass('secret');
-$ul.append($li1, $li2, $li3, $li4, $li5, $li6)
+$ul.append($li, $li1, $li2, $li3, $li4, $li5, $li6)
 
 
 $h5  = $('<h5>summer 2018</h5>');
 $container.append($h5);
 
 
-$table = $('<table>Thead</table>')
+$table = $('<table></table>')
 $container.append($table)
 $thead  = $('<thead></thead>');
 $table.append($thead);
-$th  = $('<th>Day</th>');
-$thead.append($th);
-// assigning I.D.
-$th.attr('id', 'tableHead1');
-$th  = $('<th2>Class</th2>');
+$th1  = $('<th>Day</th>');
+$thead.append($th1);
+$th2  = $('<th>Class 1</th>');
 $thead.append($th2);
-$th.attr('id', 'tableHead1');
-$tr1  = $('<tr1>Monday</tr1>');
+$th3  = $('<th>Class 2</th>');
+$thead.append($th3);
+
+$tr1  = $('<tr></tr>');
 $table.append($tr1);
-$td1  = $('<td1>Herbology, Divination</td1>');
+$td1  = $('<td>Monday</td>');
+$tr1.append($td1);
+$td1  = $('<td>Herbology</td>');
+$tr1.append($td1);
+$td1  = $('<td>Divination</td>');
 $tr1.append($td1);
 
 
+$tr2  = $('<tr></tr>'); //tr is an empty element
+$table.append($tr2);
+$td2  = $('<td>Tuesday</td>'); //td fills in the row
+$tr2.append($td2);
+$td2  = $('<td>History of Magic</td>'); //td fills in the row
+$tr2.append($td2);
+$td2  = $('<td>Potions</td>');
+$tr2.append($td2);
+
+$tr3  = $('<tr></tr>');
+$table.append($tr3);
+$td3  = $('<td>Wednesday</td>');
+$tr3.append($td3);
+$td3  = $('<td>Transfiguration</td>');
+$tr3.append($td3);
+$td3  = $('<td>Defense Against the Dark Arts</td>');
+$tr3.append($td3);
+
+$tr4  = $('<tr></tr>');
+$table.append($tr4);
+$td4  = $('<td>Thursday</td>');
+$tr4.append($td4);
+$td4  = $('<td>Quidditch practice</td>');
+$tr4.append($td4);
+$td4  = $('<td>Potions</td>');
+$tr4.append($td4);
 
 
+$tr4  = $('<tr></tr>');
+$table.append($tr4);
+$td4  = $('<td>Friday</td>');
+$tr4.append($td4);
+$td4  = $('<td>Defense Against the Dark Arts</td>');
+$tr4.append($td4);
+$td4  = $('<td>History of Magic</td>');
+$tr4.append($td4);
 
 
 
